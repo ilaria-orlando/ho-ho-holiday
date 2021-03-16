@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+.explain{
+    text-align: center;
+    height: 450px;
+    width: 300px;
+    padding: 10px;
+}
+
+.explain h1{
+    color: #001B3D;
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+
+.explain p{
+    color: #001B3D;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -150px;
+}
+
+#elf{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+
+
+#container-game{
+    width: 500px;
+    height: 450px;
+    background-image: url("img/gamebackground.png");
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 8px;
+}
+
+.container{
+    background-color: #E1F2F7;
+    width: 850px;
+    height: 500px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 150px;
+}
+
+@media only screen and (max-width: 500px){
+    .container{
+        flex-direction: column;
+        height: 700px;
+    }
+}
+
+#wraper{
+    width: 500px;
+    height: 450px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+/* Share Section start */
+.share-btn-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 16px;
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.share-btn-container a {
+    margin: 12px 0;
+}
+
+.share-btn-container i {
+    font-size: 25px;
+    color: #E1F2F7;
+}
+
+.share-btn-container .fa-facebook:hover {
+    color: #1674EA;
+}
+
+.share-btn-container .fa-twitter:hover {
+    color: #74c5ff;
+}
+
+.share-btn-container .fa-envelope:hover {
+    color: #F5D3A0;
+}
+
+.share-btn-container .fa-whatsapp:hover {
+    color: #3ef760;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}

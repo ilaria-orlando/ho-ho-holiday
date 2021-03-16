@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+body {
+  background-color: #001B3D;
+  margin: 0;
+  padding: 0px;
+  position: relative;
+  padding-bottom: 20%;
+  min-height: 100vh;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Amatic SC", cursive;
+  color: #E1F2F7;
+}
+
+p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #E1F2F7;
+  margin: 0;
+}
+
+.navbar-brand {
+  padding-left: 30px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px;
+  color: #E1F2F7;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer-image {
+  width: 100%;
+}
+
+.footer-image img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+main {
+  padding-top: 20%;
+}
+
+.gifs {
+  height: 32px;
+  width: 85vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gifs .santaLeft {
+  background-image: url(./../assets/sprites/santaJump.gif);
+  height: 32px;
+  width: 32px;
+  background-color: transparent;
+}
+
+.gifs .santaRight {
+  background-image: url(./../assets/sprites/santaJumpRight.gif);
+  height: 32px;
+  width: 32px;
+  background-color: transparent;
+}
+
+.gifs .evilElf {
+  background-image: url(./../assets/sprites/evilElf.gif);
+  height: 32px;
+  width: 32px;
+}
+
+.gifs .evilElfRight {
+  background-image: url(./../assets/sprites/evilElfRight.gif);
+  height: 32px;
+  width: 32px;
+}
+
+.gifs .evilGift {
+  background-image: url(./../assets/sprites/evilGift.gif);
+  height: 32px;
+  width: 32px;
+}
+
+.gifs .evilGiftRight {
+  background-image: url(./../assets/sprites/evilGiftRight.gif);
+  height: 32px;
+  width: 32px;
+}
+
+.borderGame {
+  padding-top: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: none;
+  width: 85vw;
+  height: 30px;
+}
+
+.borderGame .borderleft {
+  height: 30px;
+  width: 50px;
+  background-image: url(../assets/leftBorder.png);
+}
+
+.borderGame .bordermiddle {
+  height: 30px;
+  width: calc(86vw - 100px);
+  background-image: url(../assets/middleBorder.png);
+}
+
+.borderGame .borderright {
+  height: 30px;
+  width: 50px;
+  background-image: url(../assets/rightBorder.png);
+}
+
+#gameContainer {
+  height: 70vh;
+  width: 85vw;
+  background-color: #001B3D;
+  background-image: url(../assets/bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.tiles {
+  width: 85vw;
+  height: 4vh;
+  background-color: black;
+  background-image: url(../assets/snowtile.png);
+  background-size: 2vw;
+  background-position: left top;
+  border-radius: 0 0 5px 5px;
+}
+
+.moon {
+  position: absolute;
+  right: 40px;
+  top: 50px;
+  background-image: url(../assets/moon.png);
+  width: 128px;
+  height: 128px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-game {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+.share-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+  position: fixed;
+  top: 50%;
+  left: 0%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.share-btn-container a {
+  margin: 12px 0;
+}
+
+.share-btn-container i {
+  font-size: 25px;
+  color: #E1F2F7;
+}
+
+.share-btn-container .fa-facebook:hover {
+  color: #1674EA;
+}
+
+.share-btn-container .fa-twitter:hover {
+  color: #74c5ff;
+}
+
+.share-btn-container .fa-envelope:hover {
+  color: #F5D3A0;
+}
+
+.share-btn-container .fa-whatsapp:hover {
+  color: #3ef760;
+}
+
+/* .sound {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    padding: 1vh;
+    .muteButton {
+        background-image: url(../assets/volume.png);
+        background-size: cover;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+}*/
+/*# sourceMappingURL=running-style.css.map */

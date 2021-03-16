@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+/* copy of common style sheet */
+body {
+  background-color: #001B3D;
+  margin: 0;
+  padding: 0px;
+  position: relative;
+  padding-bottom: 20%;
+  min-height: 100vh;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+h1, h2, h3, h4, h5 {
+  font-family: "Amatic SC", cursive;
+  color: #E1F2F7;
+}
+p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #E1F2F7;
+  margin: 0;
+}
+
+.navbar-brand {
+  padding-left: 30px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px;
+  color: #E1F2F7;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.footer-image {
+  width: 100%;
+}
+
+.footer-image img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+
+/* css for gift generator start here */
+main {
+        padding-top:100px;
+        text-align: center;
+        width: 100%;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible:hover {
+background-color: #555;
+}
+
+.content {
+padding: 0 18px;
+display: none;
+overflow: hidden;
+background-color: #f1f1f1;
+}
+
+#myform {
+  padding: 10px;
+  margin: 10px;
+  font-size: 50px;
+}
+.big-image{
+        width: 200px;
+        margin: auto;
+        margin-bottom: 20px;
+
+}
+#gift{
+        opacity: .9;
+        max-width: 100%;
+        max-height: 100%;
+        display: block; /* remove extra space below image */
+}
+input{
+        width: 30%;
+        text-align: center;
+        background-color: #E1F2F7;
+        outline:none;
+        padding: 15px 40px;
+        margin: 30px 0 10px 0;
+        border-radius: 5px;
+}
+
+button{
+
+  border-radius: 8px;
+  border: 2px solid #F5D3A0;
+  outline: none;
+  background: #F5D3A0;
+  /* width: 200px;
+  height: 60px; */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  justify-self: center;
+  margin: 30px;
+}
+button h3{
+        color:#001B3D;
+        font-weight: 900;
+        font-size: 40px; 
+}
+
+select{
+        width: 20%;
+        text-align: center;
+        background-color: #B7D4FC;
+        outline:none;
+        padding: 10px 30px;
+        margin: 10px 0;
+        border-radius: 5px;  
+}
+#snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1000;
+}
+
+
+/* Share Section start */
+.share-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 16px;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.share-btn-container a {
+  margin: 12px 0;
+}
+
+.share-btn-container i {
+  font-size: 25px;
+  color: #E1F2F7;
+}
+
+.share-btn-container .fa-facebook:hover {
+  color: #1674EA;
+}
+
+.share-btn-container .fa-twitter:hover {
+  color: #74c5ff;
+}
+
+.share-btn-container .fa-envelope:hover {
+  color: #F5D3A0;
+}
+
+.share-btn-container .fa-whatsapp:hover {
+  color: #3ef760;
+}
+
+
+
+
