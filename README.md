@@ -14,7 +14,7 @@ To make the lockdown holidays bearable we emerged ourselves in the Christmas spi
 
 | Game | Description | Builder | Highlight of the Builder |
 | ----------- | ----------- | ----------- |  ----------- |
-| ![Elf](./running-game/assets/elf.png "elf icon") <br> Dress the Elf!  | Dress your little helper in time for the Christmas Party!<br> The game is built with interact.js and the assets wher also created by me (Ilaria) | [Ilaria](https://github.com/ilaria-orlando "Ilaria's Github page") | As well as the snowy footer in Illustrator :snowflake: |
+| ![Elf](./running-game/assets/elf.png "elf icon") <br> Dress the Elf!  | Dress your little helper in time for the Christmas Party!<br> The game is built with interact.js and the assets were also created by me | [Ilaria](https://github.com/ilaria-orlando "Ilaria's Github page") | As well as the snowy footer in Illustrator :snowflake: |
 | ![Santa](./running-game/assets/santa-claus.png  "Santa icon") <br>Running game! | Dodge the evil elves and gifts and help Santa get his highest Christmas score ever! | [Manten](https://github.com/Vicible2 "Manten's Github page") |  |
 | ![Gift](./running-game/assets/gift-box.png  "Christmas gift") <br>Gift Name Generator| Ready for the secret Santa gift exchange? | [Selin](https://github.com/selilulu "Selin's Github page") | |
 |![card](./running-game/assets/christmas-card.png  "Christmas card") <br> Holiday Bingo!   | Can you get a bingo with 4 of them in a row? | [Wing](https://github.com/chevtong "Wing's Github page") | Who also handle the overall styling for pages to create this winter cozy feeling. :snowman:
